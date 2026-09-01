@@ -15,12 +15,11 @@ not retrain or tune on the deployment cohort.
 ## Release-candidate status
 
 This repository is a packaging candidate, not yet a public release. The Python
-inference interface and Puma export/validation scripts are present, but the frozen
-model bundles are intentionally not included. Public release should occur only after:
+inference interface is included, while the frozen model bundle is distributed
+separately. Public release should occur only after:
 
-1. the portable bundles have been exported and validated against the frozen SCP3342
-   deployment;
-2. the model archive has been deposited in a versioned repository such as Zenodo;
+1. the model archive has been deposited in a versioned repository such as Zenodo;
+2. a redistributable example dataset and end-to-end tutorial have been finalized;
 3. the software license and University of Arizona IP-release timing have been
    confirmed.
 
@@ -75,27 +74,11 @@ labels must be mapped explicitly.
 
 ```text
 cardiochrom/                  Python inference package
-scripts/                     Puma bundle export and frozen-output validation
 examples/                    Explicit routing-map examples
 tests/                       Synthetic numerical tests
 docs/MODEL_BUNDLE.md         Portable model format
 docs/RELEASE_CHECKLIST.md    Steps required before public release
 ```
-
-## Puma model export
-
-After placing this repository at
-`/xdisk/yitan/hongbiaohuang/CardioChrom_release_candidate`, submit the complete
-dependency-controlled export and validation workflow with:
-
-```bash
-cd /xdisk/yitan/hongbiaohuang/CardioChrom_release_candidate
-bash scripts/submit_puma_release_pipeline.sh
-```
-
-The workflow prepares the shared gene/feature interface, exports the 12 folds as a
-Slurm array, finalizes checksums, and compares 30 route-by-modality outputs against
-the authoritative SCP3342 frozen deployment.
 
 ## Scientific scope
 
