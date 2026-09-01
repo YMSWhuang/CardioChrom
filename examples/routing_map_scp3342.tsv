@@ -1,0 +1,15 @@
+input_label	canonical_cell_type
+Cardiomyocyte	vCM
+Adipocyte	Adipocyte
+Fibroblast	Fibroblast
+Endothelial1	Endothelial
+Endothelial2	Endothelial
+Endocardial	Endocardial
+Pericyte	Pericyte
+Macrophage	Myeloid
+Proliferating_macrophage	Myeloid
+Mast_cell	Myeloid
+VSMC	SM
+Lymphocyte	Lymphoid
+Neuronal	Neuronal
+
