@@ -20,8 +20,7 @@ separately. Public release should occur only after:
 
 1. the model archive has been deposited in a versioned repository such as Zenodo;
 2. a redistributable example dataset and end-to-end tutorial have been finalized;
-3. the software license and University of Arizona IP-release timing have been
-   confirmed.
+3. the final software license and public-release timing have been confirmed.
 
 ## Input contract
 

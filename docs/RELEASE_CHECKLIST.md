@@ -6,7 +6,7 @@
 - [x] Remove internal filesystem paths and infrastructure-specific scripts from the GitHub repository.
 - [ ] Add a very small redistributable example RNA dataset.
 - [ ] Run the documented end-to-end quick start in a clean environment.
-- [ ] Confirm University of Arizona IP/public-disclosure timing.
+- [ ] Confirm the final public-release timing.
 - [ ] Add the approved open-source license.
 - [ ] Deposit the model archive and frozen paper version in Zenodo.
 - [ ] Insert the model DOI and paper-code DOI in the README and Data Availability Statement.
