@@ -7,6 +7,10 @@ authors:
     given-names: "Hongbiao"
 version: "0.1.0rc2"
 repository-code: "https://github.com/YMSWhuang/CardioChrom"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22239579"
+    description: "CardioChrom Portable Frozen Model Bundle"
 license: "MIT"
 abstract: >-
   A frozen cardiovascular virtual-epigenome inference framework that maps

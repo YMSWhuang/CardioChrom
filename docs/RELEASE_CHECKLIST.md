@@ -8,6 +8,7 @@
 - [x] Run the documented end-to-end quick start in a clean Python 3.11 environment (3/3 cells routed, gene coverage 1.0, all outputs finite).
 - [x] Make the source repository publicly accessible.
 - [x] Add the MIT open-source license and citation metadata.
-- [ ] Deposit the model archive and frozen paper version in Zenodo.
-- [ ] Insert the model DOI and paper-code DOI in the README and Data Availability Statement.
+- [x] Reserve Zenodo DOI `10.5281/zenodo.22239579` for the portable model bundle and add it to repository metadata.
+- [ ] Publish the model archive under the reserved Zenodo DOI.
+- [ ] Add the final paper citation and Data Availability Statement.
 - [ ] Tag the submission version as `v1.0.0-paper`.

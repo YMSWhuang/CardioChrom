@@ -115,8 +115,10 @@ docs/RELEASE_CHECKLIST.md    Steps required before public release
 
 If you use CardioChrom, please cite the associated paper and archived software/model
 record once their bibliographic details are available. Machine-readable software
-citation metadata are provided in [`CITATION.cff`](CITATION.cff). The final paper
-citation and Zenodo DOI will be added before the versioned paper release.
+citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+
+The portable frozen model bundle is archived on Zenodo:
+[10.5281/zenodo.22239579](https://doi.org/10.5281/zenodo.22239579).
 
 ## License
 
