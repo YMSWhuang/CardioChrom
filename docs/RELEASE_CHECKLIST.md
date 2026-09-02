@@ -5,7 +5,7 @@
 - [x] Review `checksums.sha256`, `bundle_manifest.json`, and the validation table.
 - [x] Remove internal filesystem paths and infrastructure-specific scripts from the GitHub repository.
 - [x] Add a minimal synthetic example-input generator and quick-start instructions.
-- [ ] Run the documented end-to-end quick start in a clean environment.
+- [x] Run the documented end-to-end quick start in a clean Python 3.11 environment (3/3 cells routed, gene coverage 1.0, all outputs finite).
 - [ ] Confirm the final public-release timing.
 - [ ] Add the approved open-source license.
 - [ ] Deposit the model archive and frozen paper version in Zenodo.

@@ -10,10 +10,21 @@ the predictions for scientific interpretation.
 
 ## 1. Install CardioChrom
 
-From the repository root:
+From the repository root, follow the full environment instructions in the main
+README. The standard installation commands are:
 
 ```bash
-python -m pip install -e .
+python -m pip install .
+cardiochrom --help
+```
+
+On shared systems, unrelated user-site packages can leak into an otherwise new
+environment. If `python -m pip check` reports packages that CardioChrom did not
+install, isolate the environment before installation:
+
+```bash
+unset PYTHONPATH
+export PYTHONNOUSERSITE=1
 ```
 
 ## 2. Extract the model archive
@@ -58,6 +69,10 @@ A successful run creates:
   and routing status for each cell;
 - `example_results/CardioChrom_run_manifest.json`: input coverage, route
   counts, modalities, normalization, and translator metadata.
+
+The validated smoke test produces 3 routed cells, frozen-gene coverage of 1.0,
+no missing frozen genes, latent arrays with shape `(3, 50)`, distance arrays
+with shape `(3,)`, and finite values in every output array.
 
 For real data, supply an `.h5ad` containing raw RNA counts, unique gene symbols,
 and a cell-type column. See the root README for the full input contract.

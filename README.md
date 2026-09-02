@@ -19,8 +19,12 @@ Python inference interface and a minimal synthetic smoke test are included, whil
 the frozen model bundle is distributed separately. Before the paper release:
 
 1. publish the model archive in a versioned repository such as Zenodo;
-2. run the documented end-to-end quick start in a clean environment;
-3. confirm the final software license and release timing.
+2. confirm the final software license and release timing.
+
+The documented synthetic end-to-end quick start was validated in a clean Python
+3.11 environment using CardioChrom 0.1.0rc2 and model bundle v1: all 3 cells were
+routed, frozen-gene coverage was 1.0, and every predicted latent value and KNN25
+distance was finite.
 
 ## Input contract
 
