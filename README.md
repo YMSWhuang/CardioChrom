@@ -14,13 +14,13 @@ not retrain or tune on the deployment cohort.
 
 ## Release-candidate status
 
-This repository is a packaging candidate, not yet a public release. The Python
-inference interface is included, while the frozen model bundle is distributed
-separately. Public release should occur only after:
+This repository is a packaging candidate, not yet a versioned public release. The
+Python inference interface and a minimal synthetic smoke test are included, while
+the frozen model bundle is distributed separately. Before the paper release:
 
-1. the model archive has been deposited in a versioned repository such as Zenodo;
-2. a redistributable example dataset and end-to-end tutorial have been finalized;
-3. the final software license and public-release timing have been confirmed.
+1. publish the model archive in a versioned repository such as Zenodo;
+2. run the documented end-to-end quick start in a clean environment;
+3. confirm the final software license and release timing.
 
 ## Input contract
 
@@ -54,6 +54,9 @@ cardiochrom predict \
   --output results
 ```
 
+For a complete small test that first creates a valid synthetic `.h5ad`, follow
+the [minimal synthetic example](examples/README.md).
+
 Primary outputs are the exact 50-dimensional virtual-modality latent states and
 RNA-latent KNN25 mean distances. The Python API can additionally decode selected
 ATAC or histone features. ATAC values are continuous reconstructed accessibility
@@ -73,7 +76,7 @@ labels must be mapped explicitly.
 
 ```text
 cardiochrom/                  Python inference package
-examples/                    Explicit routing-map examples
+examples/                    Synthetic smoke test and routing-map example
 tests/                       Synthetic numerical tests
 docs/MODEL_BUNDLE.md         Portable model format
 docs/RELEASE_CHECKLIST.md    Steps required before public release

@@ -4,7 +4,7 @@
 - [x] Validate the portable bundle against the frozen reference outputs (30/30 comparisons passed).
 - [x] Review `checksums.sha256`, `bundle_manifest.json`, and the validation table.
 - [x] Remove internal filesystem paths and infrastructure-specific scripts from the GitHub repository.
-- [ ] Add a very small redistributable example RNA dataset.
+- [x] Add a minimal synthetic example-input generator and quick-start instructions.
 - [ ] Run the documented end-to-end quick start in a clean environment.
 - [ ] Confirm the final public-release timing.
 - [ ] Add the approved open-source license.
