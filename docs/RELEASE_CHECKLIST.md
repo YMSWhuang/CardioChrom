@@ -9,6 +9,6 @@
 - [x] Make the source repository publicly accessible.
 - [x] Add the MIT open-source license and citation metadata.
 - [x] Reserve Zenodo DOI `10.5281/zenodo.22239579` for the portable model bundle and add it to repository metadata.
-- [ ] Publish the model archive under the reserved Zenodo DOI.
+- [x] Publish the model archive under Zenodo DOI `10.5281/zenodo.22239579`.
 - [ ] Add the final paper citation and Data Availability Statement.
 - [ ] Tag the submission version as `v1.0.0-paper`.
