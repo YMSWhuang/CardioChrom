@@ -38,9 +38,33 @@ coverage is recorded.
 
 ## Installation
 
+Clone the repository, enter its root directory, and install the package in a
+dedicated Python environment:
+
 ```bash
-python -m pip install -e .
+git clone https://github.com/YMSWhuang/CardioChrom.git
+cd CardioChrom
+
+conda create -n cardiochrom python=3.11 -y
+conda activate cardiochrom
+
+python -m pip install --upgrade pip
+python -m pip install .
 ```
+
+Confirm that the command-line interface is available:
+
+```bash
+cardiochrom --help
+```
+
+This installs the CardioChrom Python package and the dependencies declared in
+`pyproject.toml`. It does **not** download the frozen model bundle. The
+`CardioChrom_model_bundle_v1.tar.gz` archive is distributed separately and must
+be downloaded, checksum-verified, and extracted before prediction.
+
+Developers who want source-code edits to take effect without reinstalling may use
+`python -m pip install -e .` instead of `python -m pip install .`.
 
 ## Quick start
 
