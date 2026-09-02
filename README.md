@@ -19,7 +19,8 @@ Python inference interface and a minimal synthetic smoke test are included, whil
 the frozen model bundle is distributed separately. Before the paper release:
 
 1. publish the model archive in a versioned repository such as Zenodo;
-2. confirm the final software license and release timing.
+2. insert the Zenodo DOI in this README and the manuscript Data Availability Statement;
+3. tag the frozen submission version as `v1.0.0-paper`.
 
 The documented synthetic end-to-end quick start was validated in a clean Python
 3.11 environment using CardioChrom 0.1.0rc2 and model bundle v1: all 3 cells were
@@ -109,6 +110,19 @@ tests/                       Synthetic numerical tests
 docs/MODEL_BUNDLE.md         Portable model format
 docs/RELEASE_CHECKLIST.md    Steps required before public release
 ```
+
+## Citation
+
+If you use CardioChrom, please cite the associated paper and archived software/model
+record once their bibliographic details are available. Machine-readable software
+citation metadata are provided in [`CITATION.cff`](CITATION.cff). The final paper
+citation and Zenodo DOI will be added before the versioned paper release.
+
+## License
+
+The CardioChrom source code in this repository is distributed under the
+[MIT License](LICENSE). The separately distributed model archive is governed by
+the license stated in its corresponding Zenodo record.
 
 ## Scientific scope
 

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use CardioChrom, please cite the associated paper and archived software record."
+title: "CardioChrom"
+type: software
+authors:
+  - family-names: "Huang"
+    given-names: "Hongbiao"
+version: "0.1.0rc2"
+repository-code: "https://github.com/YMSWhuang/CardioChrom"
+license: "MIT"
+abstract: >-
+  A frozen cardiovascular virtual-epigenome inference framework that maps
+  single-cell or single-nucleus RNA count profiles to reconstructed ATAC,
+  H3K27ac, and H3K27me3 latent regulatory representations.
+keywords:
+  - single-cell RNA sequencing
+  - virtual epigenome
+  - chromatin accessibility
+  - cardiovascular genomics
